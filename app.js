@@ -1,5 +1,5 @@
 /**
- * EduGrade AI - Student Assessment & Internal Marks Portal
+ * GradeWave - Student Assessment & Internal Marks Portal
  * Core Application Engine, Data Store, Canvas Visualizations, and RBAC
  */
 
@@ -752,7 +752,7 @@ const App = {
       <!-- AI Forecast Panel -->
       <div class="ai-card">
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
-          <div class="ai-badge">🤖 EduGrade AI™ Predictive Performance Analytics</div>
+          <div class="ai-badge"> GradeWave Predictive Performance Analytics</div>
           <span class="badge ${aiPrediction.riskClass}" style="font-size:0.82rem; padding:0.35rem 0.75rem;">${aiPrediction.riskLevel}</span>
         </div>
 
